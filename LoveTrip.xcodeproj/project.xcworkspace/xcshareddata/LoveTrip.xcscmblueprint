@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "bd7db91d-caa2-4927-88ae-354c3fb378bd++4493",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "bd7db91d-caa2-4927-88ae-354c3fb378bd++4493" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DF6C305324500D1B875FA55A5EFBB23A9E74DD55" : 0,
+    "bd7db91d-caa2-4927-88ae-354c3fb378bd++4493" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5B6A8133-D374-4374-9046-211E54863C90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DF6C305324500D1B875FA55A5EFBB23A9E74DD55" : "MyLoveTrip\/",
+    "bd7db91d-caa2-4927-88ae-354c3fb378bd++4493" : "LoveTrip_Working_Copy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LoveTrip",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LoveTrip.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Johncahong\/LoveTrip_Working_Copy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF6C305324500D1B875FA55A5EFBB23A9E74DD55"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/127.0.0.1",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bd7db91d-caa2-4927-88ae-354c3fb378bd++4493"
+    }
+  ]
+}

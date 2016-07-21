@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="FindModel" representedClassName="FindModel" syncable="YES">
+        <attribute name="days" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="front_cover_photo_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photos_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FindModel" positionX="-54" positionY="-9" width="128" height="148"/>
+    </elements>
+</model>
