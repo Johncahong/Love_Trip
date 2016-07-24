@@ -110,6 +110,9 @@
 		F10C68EE1D452F5D0034A1F5 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F10C68D31D452F5D0034A1F5 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		F10C68EF1D452F5D0034A1F5 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10C68D61D452F5D0034A1F5 /* libSocialWechat.a */; };
 		F10C68F01D452F5D0034A1F5 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10C68D71D452F5D0034A1F5 /* libWeChatSDK.a */; };
+		F10C69041D4536CB0034A1F5 /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C68FE1D4536CB0034A1F5 /* MineModel.m */; };
+		F10C69051D4536CB0034A1F5 /* LoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C69011D4536CB0034A1F5 /* LoveCell.m */; };
+		F10C69061D4536CB0034A1F5 /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C69031D4536CB0034A1F5 /* MineCell.m */; };
 		F11191C61CDAE1C80087309F /* DestinationMenuIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191BA1CDAE1C80087309F /* DestinationMenuIcon2.png */; };
 		F11191C71CDAE1C80087309F /* DestinationMenuIcon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191BB1CDAE1C80087309F /* DestinationMenuIcon2@2x.png */; };
 		F11191C81CDAE1C80087309F /* DestinationMenuIcon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191BC1CDAE1C80087309F /* DestinationMenuIcon2@3x.png */; };
@@ -123,7 +126,6 @@
 		F11191D01CDAE1C80087309F /* DestinationMenuIcon3Highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191C41CDAE1C80087309F /* DestinationMenuIcon3Highlight@2x.png */; };
 		F11191D11CDAE1C80087309F /* DestinationMenuIcon3Highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191C51CDAE1C80087309F /* DestinationMenuIcon3Highlight@3x.png */; };
 		F11191D31CDB3E420087309F /* wodebeijing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191D21CDB3E420087309F /* wodebeijing@2x.png */; };
-		F11191D61CDB3FE00087309F /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F11191D51CDB3FE00087309F /* MineModel.m */; };
 		F11191E11CDB41190087309F /* Delete_Dark_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191D81CDB41190087309F /* Delete_Dark_Normal.png */; };
 		F11191E21CDB41190087309F /* Delete_Dark_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191D91CDB41190087309F /* Delete_Dark_Normal@2x.png */; };
 		F11191E31CDB41190087309F /* Delete_Dark_Normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11191DA1CDB41190087309F /* Delete_Dark_Normal@3x.png */; };
@@ -154,21 +156,18 @@
 		F11192111CDB42B60087309F /* MessageButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F111920E1CDB42B60087309F /* MessageButton.png */; };
 		F11192121CDB42B60087309F /* MessageButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F111920F1CDB42B60087309F /* MessageButton@2x.png */; };
 		F11192131CDB42B60087309F /* MessageButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11192101CDB42B60087309F /* MessageButton@3x.png */; };
-		F11192161CDB44470087309F /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F11192151CDB44470087309F /* MineCell.m */; };
 		F11192201CDB5E290087309F /* FavoritedBarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F111921D1CDB5E290087309F /* FavoritedBarButton.png */; };
 		F11192211CDB5E290087309F /* FavoritedBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F111921E1CDB5E290087309F /* FavoritedBarButton@2x.png */; };
 		F11192221CDB5E290087309F /* FavoritedBarButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F111921F1CDB5E290087309F /* FavoritedBarButton@3x.png */; };
 		F11192251CDB60D00087309F /* LoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F11192241CDB60D00087309F /* LoveVC.m */; };
 		F111EF601CD88F2000732B76 /* ShowImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F111EF5F1CD88F2000732B76 /* ShowImageVC.m */; };
 		F111EF691CD8AF2C00732B76 /* MyTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F111EF681CD8AF2C00732B76 /* MyTapGestureRecognizer.m */; };
-		F11408011CDD8AEC005D6457 /* LoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F11408001CDD8AEC005D6457 /* LoveCell.m */; };
 		F114080A1CDDB5F1005D6457 /* CGHDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F11408091CDDB5F1005D6457 /* CGHDBManager.m */; };
 		F14850CF1CB4BB1100044E52 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850AE1CB4BB1100044E52 /* FindViewController.m */; };
 		F14850D01CB4BB1100044E52 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850B11CB4BB1100044E52 /* DatabaseManager.m */; };
 		F14850D51CB4BB1100044E52 /* FindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850BC1CB4BB1100044E52 /* FindCell.m */; };
 		F14850D61CB4BB1100044E52 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850C11CB4BB1100044E52 /* MineViewController.m */; };
 		F14850D71CB4BB1100044E52 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850C81CB4BB1100044E52 /* StrategyViewController.m */; };
-		F14850D81CB4BB1100044E52 /* ToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850CD1CB4BB1100044E52 /* ToolViewController.m */; };
 		F14850E31CB4BBAA00044E52 /* FDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850DC1CB4BBAA00044E52 /* FDetailViewController.m */; };
 		F14850E41CB4BBAA00044E52 /* FDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850DF1CB4BBAA00044E52 /* FDetailModel.m */; };
 		F14850E51CB4BBAA00044E52 /* FTripdayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14850E11CB4BBAA00044E52 /* FTripdayModel.m */; };
@@ -431,6 +430,12 @@
 		F10C68D81D452F5D0034A1F5 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
 		F10C68D91D452F5D0034A1F5 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		F10C68DA1D452F5D0034A1F5 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F10C68FD1D4536CB0034A1F5 /* MineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineModel.h; sourceTree = "<group>"; };
+		F10C68FE1D4536CB0034A1F5 /* MineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineModel.m; sourceTree = "<group>"; };
+		F10C69001D4536CB0034A1F5 /* LoveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveCell.h; sourceTree = "<group>"; };
+		F10C69011D4536CB0034A1F5 /* LoveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveCell.m; sourceTree = "<group>"; };
+		F10C69021D4536CB0034A1F5 /* MineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
+		F10C69031D4536CB0034A1F5 /* MineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
 		F11191BA1CDAE1C80087309F /* DestinationMenuIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DestinationMenuIcon2.png; sourceTree = "<group>"; };
 		F11191BB1CDAE1C80087309F /* DestinationMenuIcon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DestinationMenuIcon2@2x.png"; sourceTree = "<group>"; };
 		F11191BC1CDAE1C80087309F /* DestinationMenuIcon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DestinationMenuIcon2@3x.png"; sourceTree = "<group>"; };
@@ -444,8 +449,6 @@
 		F11191C41CDAE1C80087309F /* DestinationMenuIcon3Highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DestinationMenuIcon3Highlight@2x.png"; sourceTree = "<group>"; };
 		F11191C51CDAE1C80087309F /* DestinationMenuIcon3Highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DestinationMenuIcon3Highlight@3x.png"; sourceTree = "<group>"; };
 		F11191D21CDB3E420087309F /* wodebeijing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wodebeijing@2x.png"; sourceTree = "<group>"; };
-		F11191D41CDB3FE00087309F /* MineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineModel.h; path = ../../../ToolVC/MineModel.h; sourceTree = "<group>"; };
-		F11191D51CDB3FE00087309F /* MineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineModel.m; path = ../../../ToolVC/MineModel.m; sourceTree = "<group>"; };
 		F11191D81CDB41190087309F /* Delete_Dark_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete_Dark_Normal.png; sourceTree = "<group>"; };
 		F11191D91CDB41190087309F /* Delete_Dark_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete_Dark_Normal@2x.png"; sourceTree = "<group>"; };
 		F11191DA1CDB41190087309F /* Delete_Dark_Normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete_Dark_Normal@3x.png"; sourceTree = "<group>"; };
@@ -476,8 +479,6 @@
 		F111920E1CDB42B60087309F /* MessageButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageButton.png; sourceTree = "<group>"; };
 		F111920F1CDB42B60087309F /* MessageButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageButton@2x.png"; sourceTree = "<group>"; };
 		F11192101CDB42B60087309F /* MessageButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageButton@3x.png"; sourceTree = "<group>"; };
-		F11192141CDB44470087309F /* MineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineCell.h; path = ../../../ToolVC/MineCell.h; sourceTree = "<group>"; };
-		F11192151CDB44470087309F /* MineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineCell.m; path = ../../../ToolVC/MineCell.m; sourceTree = "<group>"; };
 		F111921D1CDB5E290087309F /* FavoritedBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoritedBarButton.png; sourceTree = "<group>"; };
 		F111921E1CDB5E290087309F /* FavoritedBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FavoritedBarButton@2x.png"; sourceTree = "<group>"; };
 		F111921F1CDB5E290087309F /* FavoritedBarButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FavoritedBarButton@3x.png"; sourceTree = "<group>"; };
@@ -487,8 +488,6 @@
 		F111EF5F1CD88F2000732B76 /* ShowImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageVC.m; sourceTree = "<group>"; };
 		F111EF671CD8AF2C00732B76 /* MyTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTapGestureRecognizer.h; sourceTree = "<group>"; };
 		F111EF681CD8AF2C00732B76 /* MyTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTapGestureRecognizer.m; sourceTree = "<group>"; };
-		F11407FF1CDD8AEC005D6457 /* LoveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveCell.h; sourceTree = "<group>"; };
-		F11408001CDD8AEC005D6457 /* LoveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveCell.m; sourceTree = "<group>"; };
 		F11408081CDDB5F1005D6457 /* CGHDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHDBManager.h; sourceTree = "<group>"; };
 		F11408091CDDB5F1005D6457 /* CGHDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHDBManager.m; sourceTree = "<group>"; };
 		F117092B1CC26D6E001D17E8 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
@@ -504,8 +503,6 @@
 		F14850C11CB4BB1100044E52 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		F14850C71CB4BB1100044E52 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
 		F14850C81CB4BB1100044E52 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
-		F14850CC1CB4BB1100044E52 /* ToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolViewController.h; sourceTree = "<group>"; };
-		F14850CD1CB4BB1100044E52 /* ToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewController.m; sourceTree = "<group>"; };
 		F14850DB1CB4BBAA00044E52 /* FDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDetailViewController.h; sourceTree = "<group>"; };
 		F14850DC1CB4BBAA00044E52 /* FDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDetailViewController.m; sourceTree = "<group>"; };
 		F14850DE1CB4BBAA00044E52 /* FDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDetailModel.h; sourceTree = "<group>"; };
@@ -1149,6 +1146,26 @@
 			path = Wechat;
 			sourceTree = "<group>";
 		};
+		F10C68FC1D4536CB0034A1F5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F10C68FD1D4536CB0034A1F5 /* MineModel.h */,
+				F10C68FE1D4536CB0034A1F5 /* MineModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F10C68FF1D4536CB0034A1F5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F10C69001D4536CB0034A1F5 /* LoveCell.h */,
+				F10C69011D4536CB0034A1F5 /* LoveCell.m */,
+				F10C69021D4536CB0034A1F5 /* MineCell.h */,
+				F10C69031D4536CB0034A1F5 /* MineCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		F11191D71CDB410F0087309F /* mine */ = {
 			isa = PBXGroup;
 			children = (
@@ -1207,7 +1224,6 @@
 				F14850BD1CB4BB1100044E52 /* MineVC */,
 				F14850C41CB4BB1100044E52 /* StrategyVC */,
 				F1FF79FD1CBAB7B000326A4C /* SearchVC */,
-				F14850CB1CB4BB1100044E52 /* ToolVC */,
 			);
 			path = interface;
 			sourceTree = "<group>";
@@ -1275,9 +1291,9 @@
 		F14850BE1CB4BB1100044E52 /* MHomePageVC */ = {
 			isa = PBXGroup;
 			children = (
+				F10C68FC1D4536CB0034A1F5 /* model */,
+				F10C68FF1D4536CB0034A1F5 /* view */,
 				F14850BF1CB4BB1100044E52 /* control */,
-				F14850C21CB4BB1100044E52 /* model */,
-				F14850C31CB4BB1100044E52 /* view */,
 			);
 			path = MHomePageVC;
 			sourceTree = "<group>";
@@ -1297,26 +1313,6 @@
 				F1753E0C1CDCA4930081DFFE /* MessageVC.xib */,
 			);
 			path = control;
-			sourceTree = "<group>";
-		};
-		F14850C21CB4BB1100044E52 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				F11191D41CDB3FE00087309F /* MineModel.h */,
-				F11191D51CDB3FE00087309F /* MineModel.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		F14850C31CB4BB1100044E52 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				F11192141CDB44470087309F /* MineCell.h */,
-				F11192151CDB44470087309F /* MineCell.m */,
-				F11407FF1CDD8AEC005D6457 /* LoveCell.h */,
-				F11408001CDD8AEC005D6457 /* LoveCell.m */,
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		F14850C41CB4BB1100044E52 /* StrategyVC */ = {
@@ -1367,15 +1363,6 @@
 				F1FE2AC31CB6733900C758B8 /* CollectionCell.m */,
 			);
 			path = view;
-			sourceTree = "<group>";
-		};
-		F14850CB1CB4BB1100044E52 /* ToolVC */ = {
-			isa = PBXGroup;
-			children = (
-				F14850CC1CB4BB1100044E52 /* ToolViewController.h */,
-				F14850CD1CB4BB1100044E52 /* ToolViewController.m */,
-			);
-			path = ToolVC;
 			sourceTree = "<group>";
 		};
 		F14850D91CB4BBAA00044E52 /* FDetailVC */ = {
@@ -1839,18 +1826,18 @@
 				F1F95DAA1CB4DF7700F0CEAF /* FNodesSubModel.m in Sources */,
 				F10B0EFE1CB7EB2E009EFC8A /* XCNodeModel.m in Sources */,
 				F101E2371CB365C8008BECCB /* AFHTTPSessionManager.m in Sources */,
-				F11192161CDB44470087309F /* MineCell.m in Sources */,
 				F1F745C61CC92A6C00914571 /* MASCompositeConstraint.m in Sources */,
+				F10C69051D4536CB0034A1F5 /* LoveCell.m in Sources */,
 				F1FA03C71CBB565C0073A8B6 /* MyBgImageView.m in Sources */,
 				F114080A1CDDB5F1005D6457 /* CGHDBManager.m in Sources */,
 				F101E24B1CB365C8008BECCB /* MJRefreshBackGifFooter.m in Sources */,
 				F101E23B1CB365C8008BECCB /* AFURLRequestSerialization.m in Sources */,
-				F11408011CDD8AEC005D6457 /* LoveCell.m in Sources */,
 				F1FF7A0C1CBAC0DC00326A4C /* SearchCollectionCell.m in Sources */,
 				F10B0E961CB78B20009EFC8A /* XingChengViewController.m in Sources */,
 				F101E2411CB365C8008BECCB /* FMDatabaseQueue.m in Sources */,
 				F111EF601CD88F2000732B76 /* ShowImageVC.m in Sources */,
 				F1F745CC1CC92A6C00914571 /* NSArray+MASAdditions.m in Sources */,
+				F10C69061D4536CB0034A1F5 /* MineCell.m in Sources */,
 				F1FABE801CB8E6DB00376721 /* LXDDetailViewController.m in Sources */,
 				F1F95DB01CB4FA4F00F0CEAF /* FDetailCell.m in Sources */,
 				F1F954101CAAB1D400E472A1 /* main.m in Sources */,
@@ -1904,6 +1891,7 @@
 				F101E2641CB365C8008BECCB /* UIImage+GIF.m in Sources */,
 				F1F90B401CB6606000A31240 /* CategoryModel.m in Sources */,
 				F1F745C71CC92A6C00914571 /* MASConstraint.m in Sources */,
+				F10C69041D4536CB0034A1F5 /* MineModel.m in Sources */,
 				F1F95DAD1CB4E0C500F0CEAF /* FImageModel.m in Sources */,
 				F101E2441CB365C8008BECCB /* MJRefreshBackFooter.m in Sources */,
 				F101E24E1CB365C8008BECCB /* MJRefreshGifHeader.m in Sources */,
@@ -1919,7 +1907,6 @@
 				F101E2601CB365C8008BECCB /* SDWebImageDownloaderOperation.m in Sources */,
 				F10B0E9C1CB79358009EFC8A /* XCModel.m in Sources */,
 				F10B0EF81CB7E025009EFC8A /* XCDetailModel.m in Sources */,
-				F14850D81CB4BB1100044E52 /* ToolViewController.m in Sources */,
 				F101E2401CB365C8008BECCB /* FMDatabasePool.m in Sources */,
 				F101E25F1CB365C8008BECCB /* SDWebImageDownloader.m in Sources */,
 				F101E2471CB365C8008BECCB /* MJRefreshHeader.m in Sources */,
@@ -1934,7 +1921,6 @@
 				F14850D61CB4BB1100044E52 /* MineViewController.m in Sources */,
 				F11192251CDB60D00087309F /* LoveVC.m in Sources */,
 				F101E2571CB365C8008BECCB /* ZYZModelTool.m in Sources */,
-				F11191D61CDB3FE00087309F /* MineModel.m in Sources */,
 				F101E2351CB365C8008BECCB /* AFHTTPRequestOperation.m in Sources */,
 				F1AD569A1CE9B8AB00A27EBF /* CatchTableViewCell.m in Sources */,
 				F101E2691CB365C8008BECCB /* UIView+WebCacheOperation.m in Sources */,
